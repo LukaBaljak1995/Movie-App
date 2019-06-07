@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.svarog.project01.activity.Pay"
+    android:background="#ffffff">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:width="200dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/movieText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:text="Movie title:"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:width="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="25dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:text="Total price:"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:width="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="25dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="160dp"
+        android:text="Date:"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/paybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:width="150dp"
+        android:textColor="#ffffff"
+        android:background="#800000"
+        android:text="Pay" />
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/paybtn"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        />
+
+    <TextView
+        android:id="@+id/screenshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/priceText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/priceText"
+        android:layout_marginBottom="17dp"
+        android:textColor="#000000"
+        android:textSize="14dp"/>
+
+    </RelativeLayout>
+</ScrollView>

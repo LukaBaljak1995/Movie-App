@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="favorite">favorite</string>
+    <string name="movie_duration">120min</string>
+    <string name="trailers">Trailers:</string>
+    <string name="movie_poster">movie poster</string>
+    <string name="favorite_button_image">favorite button image</string>
+    <string name="play_icon">play icon</string>
+    <string name="recyclerview_item_movie_poster">recyclerview item movie poster</string>
+    <string name="favorite_movies">Favorite Movies</string>
+    <string name="main_activity_title">Pop Movies</string>
+    <string name="details_activity_title">MovieDetail</string>
+    <string name="no_reviews">No reviews for this movie</string>
+    <string name="review">Review:</string>
+</resources>
